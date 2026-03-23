@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Animais Marinhos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:700|Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="#animais">Animais</a></li>
+        <li data-dropdown>
+          <a href="sobre.html">Sobre</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="socios.html">Sócios</a></li>
+            <li><a href="investidores.html">Investidores</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
+      </ul>
+    </nav>
+    <section class="grid-section animais" data-anime="scroll" id="animais">
+      <h1 class="titulo">Animais Selvagens</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="/animais-selvagens-main/img/tigre.jpg">
+        </li>
+        <li>
+          <img src="/animais-selvagens-main/img/leão.webp">
+        </li>
+        <li>
+          <img src="/animais-selvagens-main/img/urso.webp">
+        </li>
+        <li>
+          <img src="/animais-selvagens-main/img/crocodilo.jpg">
+        </li>
+        <li>
+          <img src="/animais-selvagens-main/img/elefante.jpg">
+        </li>
+        <li>
+          <img src="/animais-selvagens-main/img/gorila.jpg">
+        </li>
+      </ul>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Tigre-de-bengala</h2>
+          <p> Nome científico: Panthera tigris tigris</p>
+          <p>Habitat: Florestas e savanas da Índia, Bangladesh e Nepal.</p>
+          <p>Alimentação: Carnívoro (veados, javalis e outros animais).</p>
+          <p>Curiosidade: É um dos maiores felinos do mundo e excelente nadador.</p>
+        </section>
+        
+        <section data-anime="show-right">
+          <h2>Leão</h2>
+          <p>Nome científico: Panthera leo</p>
+          <p>Habitat: Savanas africanas.</p>
+          <p>Alimentação: Carnívoro (zebras, antílopes e búfalos).</p>
+          <p>Peso: Até 250 kg.</p>
+          <p>Curiosidade: É conhecido como “rei da selva”</p>
+          
+        </section>
+        <section data-anime="show-down">
+          <h2>Urso Polar</h2>
+          <p>Nome científico: Ursus maritimus</p>
+          <p>Habitat: Região do Ártico.</p>
+          <p>Alimentação: Carnívoro (principalmente focas).</p>
+          <p>Peso: Até 700 kg.</p>
+          <p>Curiosidade: Excelente nadador e adaptado ao frio extremo.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>Crocodilo-do-Nilo</h2>
+          <p>Nome científico: Crocodylus niloticus</p>
+          <p>Habitat: Rios e lagos da África.</p>
+          <p>Alimentação: Carnívoro (peixes, aves e mamíferos).</p>
+          <p>Comprimento: Pode passar de 5 metros.</p>
+          <p>Curiosidade: Possui uma das mordidas mais fortes do reino animal.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Elefante-africano</h2>
+          <p>Nome científico: Loxodonta africana</p>
+          <p>Habitat: Savanas e florestas da África.</p>
+          <p>Alimentação: Herbívoro (capim, folhas, frutas e cascas de árvores).</p>
+          <p>Peso: Até 6.000 kg.</p>
+          <p>Curiosidade: É o maior animal terrestre do planeta.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>Gorila</h2>
+          <p>Nome científico: Gorilla gorilla</p>
+          <p>Habitat: Florestas tropicais da África Central.</p>
+          <p>Alimentação: Herbívoro (folhas, frutos e brotos).</p>
+          <p>Peso: Até 200 kg.</p>
+          <P>Curiosidade: É o maior primata do mundo.</P>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual o tipo dos animais?</dt>
+        <dd>Os Selvagens </dd>
+        <dt>Eles são raros?</dt>
+        <dd>Definitivamente,devido a ação do ser humano esses animais são cada vez mais raros!</dd>
+        <dt>Qual a fonte de alimentação deles?</dt>
+        <dd>Peixes, vegetais e outros animais</dd>
+        <dt>Como proteger eles?</dt>
+        <dd>Reduzindo a poluição, caças e combatendo a venda ilegal.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="/animais-selvagens-main/img/tigre.jpg" alt=""></li>
+        <li><img src="/animais-selvagens-main/img/leão.webp" alt=""></li>
+        <li><img src="/animais-selvagens-main/img/urso.webp" alt=""></li>
+        <li><img src="/animais-selvagens-main/img/crocodilo.jpg" alt=""></li>
+        <li><img src="/animais-selvagens-main/img/elefante.jpg" alt=""></li>
+        <li><img src="/animais-selvagens-main/img/gorila.jpg"alt=""></li>
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="/animais-selvagens-main/img/tigre.jpg" alt=""></li>
+          <li><img src="/animais-selvagens-main/img/leão.webp" alt=""></li>
+          <li><img src="/animais-selvagens-main/img/urso.webp" alt=""></li>
+          <li><img src="/animais-selvagens-main/img/crocodilo.jpg" alt=""></li>
+          <li><img src="/animais-selvagens-main/img/elefante.jpg" alt=""></li>
+          <li><img src="/animais-selvagens-main/img/gorila.jpg" alt=""></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Números</h1>
+      <div class="numeros-grid">
+      </div>
+    </section>
+
+    <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Contato</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao estacionamento.">
+        <img src="img/mapa.jpg">
+      </div>
+      <ul class="dados">
+        <li>oficialximenes@gmail.com</li>
+        <li>+55 (61) 9999-9999</li>
+        <li>Asa sul </li>
+        <li>Brasília - DF</li>
+        <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+        <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sex das 8 às 18</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar"></button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+  <script src="main.js"></script>  
+</body>
+</html>
